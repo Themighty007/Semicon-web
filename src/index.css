@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  --color-void: #050B0A;
+  --color-surface: #0A1512;
+  --color-surface-raised: #0F1E1A;
+  --color-accent: #22E8B0;
+  --color-accent-dim: #16A985;
+  --color-accent-glow: rgba(34, 232, 176, 0.35);
+  --color-text-primary: #F3FBF8;
+  --color-text-secondary: #9FB6AF;
+  --color-text-muted: #5E7871;
+  --color-border-subtle: rgba(255, 255, 255, 0.07);
+  --color-border-accent: rgba(34, 232, 176, 0.35);
+}
+
+@layer base {
+  body {
+    @apply bg-void text-text-primary font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .bg-dot-pattern {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  
+  .bg-glow-gradient {
+    background-image: radial-gradient(circle at 50% -20%, rgba(34, 232, 176, 0.15) 0%, transparent 70%), 
+                      radial-gradient(circle at 100% 100%, rgba(34, 232, 176, 0.1) 0%, transparent 50%);
+  }
+  
+  .glow-bloom {
+    box-shadow: 0 0 40px var(--color-accent-glow);
+  }
+}
+
