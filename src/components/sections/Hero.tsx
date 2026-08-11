@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { content } from "../../lib/content";
 import { Button } from "../ui/Button";
+import { CodeSnippet } from "../ui/CodeSnippet";
 
 export function Hero() {
   const containerVariants = {
@@ -44,8 +45,11 @@ export function Hero() {
           </Button>
         </div>
 
+        {/* Quickstart Command */}
+        <CodeSnippet command={content.hero.quickstartCommand} />
+
         {/* Marquee/Logos */}
-        <div className="mt-4 flex flex-wrap items-center gap-6 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
+        <div className="mt-8 flex flex-wrap items-center gap-6 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
           {content.hero.logos.map((logo) => (
             <span key={logo} className="text-xs font-bold tracking-wider uppercase text-text-secondary">
               {logo}
@@ -55,7 +59,7 @@ export function Hero() {
       </div>
 
       {/* Hero Terminal Card */}
-      <div className="md:col-span-5 relative z-10 flex flex-col justify-center">
+      <div className="md:col-span-5 relative z-10 flex flex-col justify-center mt-12 md:mt-0">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

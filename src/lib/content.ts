@@ -15,6 +15,7 @@ export const content = {
     subheadline: "SEM tools drift off-target between inspections. Periodic wafer layouts (DRAM/FinFET) make relocation genuinely hard because repeating structures look identical.",
     primaryCta: { label: "Try Visualizer", href: "#visualizer" },
     secondaryCta: { label: "View on GitHub", href: "https://github.com/Themighty007/Semicon-web" },
+    quickstartCommand: "git clone https://github.com/Themighty007/Semicon-project.git && cd Semicon-project && pip install -r requirements.txt && python benchmark.py",
     terminal: [
       "$ python localize.py --reference dataset/dram_pair_003/reference.png --search dataset/dram_pair_003/search.png --json",
       "",
