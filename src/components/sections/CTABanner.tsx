@@ -2,7 +2,7 @@ import { content } from "../../lib/content";
 import { Button } from "../ui/Button";
 
 export function CTABanner() {
-  const { headline, subtext, primaryCta, secondaryCta } = content.cta;
+  const { headline, subtext, primaryCta } = content.cta;
 
   return (
     <section className="w-full max-w-7xl mx-auto px-8 py-24 mb-10 relative z-10">
@@ -25,11 +25,8 @@ export function CTABanner() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
-            <Button as="a" href={primaryCta.href} variant="primary" className="w-full sm:w-auto">
+            <Button as="a" href={primaryCta.href} target="_blank" rel="noopener noreferrer" variant="primary" className="w-full sm:w-auto">
               {primaryCta.label}
-            </Button>
-            <Button as="a" href={secondaryCta.href} variant="secondary" className="w-full sm:w-auto">
-              {secondaryCta.label}
             </Button>
           </div>
         </div>

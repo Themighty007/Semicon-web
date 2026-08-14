@@ -186,8 +186,8 @@ export const content = {
         { name: "Jayanthsairam M L", role: "Developer", college: "" },
         { name: "SRI HARI KARTHIKEYAN K", role: "Developer", college: "" }
       ],
-      contact: "team@openepoch.example",
-      github: "github.com/Themighty007"
+      contact: "github.com/JayanthSairam467",
+      github: "github.com/JayanthSairam467/Semicon-Drift-Sense"
     },
     tech: [
       { label: "Language", value: "Python 3.8+ / TypeScript" },
@@ -201,8 +201,7 @@ export const content = {
   cta: {
     headline: ["See Drift-Sense", "Localize."],
     subtext: "Explore the codebase and run the evaluation pipeline yourself.",
-    primaryCta: { label: "View Repository", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" },
-    secondaryCta: { label: "Watch Demo Video", href: "#demo-video" }
+    primaryCta: { label: "View Repository", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" }
   },
   footer: {
     logo: "Drift-Sense",

@@ -30,7 +30,7 @@ export function TeamStack() {
           </div>
 
           <div className="flex items-center gap-4 pt-4">
-            <a href={`mailto:${team.contact}`} className="text-sm text-text-secondary hover:text-white transition-colors">
+            <a href={`https://${team.contact}`} target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-white transition-colors">
               {team.contact}
             </a>
             <span className="text-white/20">•</span>
