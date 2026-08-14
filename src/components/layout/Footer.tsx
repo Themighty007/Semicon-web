@@ -8,7 +8,7 @@ export function Footer() {
       <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
         <span>Reference: Applied Materials Track</span>
         <span>Model: 241K Params</span>
-        <span>≤1px Accuracy: 86.7%</span>
+        <span>≤1px Accuracy: 90%+</span>
       </div>
       <div>© 2026 Drift-Sense</div>
     </footer>
