@@ -8,14 +8,14 @@ export const content = {
       { label: "Results", href: "#results" },
       { label: "Team", href: "#team" },
     ],
-    githubUrl: "https://github.com/Themighty007/Semicon-web",
+    githubUrl: "https://github.com/JayanthSairam467/Semicon-Drift-Sense",
   },
   hero: {
     headline: ["Drift-Sense: AI-Hybrid Navigation-Error", "Recovery."],
     subheadline: "SEM tools drift off-target between inspections. Periodic wafer layouts (DRAM/FinFET) make relocation genuinely hard because repeating structures look identical.",
     primaryCta: { label: "Try Visualizer", href: "#visualizer" },
-    secondaryCta: { label: "View on GitHub", href: "https://github.com/Themighty007/Semicon-web" },
-    quickstartCommand: "git clone https://github.com/Themighty007/Semicon-project.git && cd Semicon-project && pip install -r requirements.txt && python benchmark.py",
+    secondaryCta: { label: "View on GitHub", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" },
+    quickstartCommand: "git clone https://github.com/JayanthSairam467/Semicon-Drift-Sense.git && cd Semicon-Drift-Sense && pip install -r requirements.txt && python benchmark.py",
     terminal: [
       "$ python localize.py --reference dataset/dram_pair_003/reference.png --search dataset/dram_pair_003/search.png --json",
       "",
@@ -201,7 +201,7 @@ export const content = {
   cta: {
     headline: ["See Drift-Sense", "Localize."],
     subtext: "Explore the codebase and run the evaluation pipeline yourself.",
-    primaryCta: { label: "View Repository", href: "https://github.com/Themighty007/Semicon-web" },
+    primaryCta: { label: "View Repository", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" },
     secondaryCta: { label: "Watch Demo Video", href: "#demo-video" }
   },
   footer: {
@@ -220,8 +220,8 @@ export const content = {
       {
         title: "Resources",
         links: [
-          { label: "README", href: "https://github.com/Themighty007/Semicon-web" },
-          { label: "Setup Guide", href: "https://github.com/Themighty007/Semicon-web" },
+          { label: "README", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" },
+          { label: "Setup Guide", href: "https://github.com/JayanthSairam467/Semicon-Drift-Sense" },
         ]
       },
       {
